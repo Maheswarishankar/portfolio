@@ -1,0 +1,144 @@
+
+
+.contact-page h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:#360ce0;
+    margin: auto;
+    margin-bottom: 10px;
+    
+  }
+  
+  
+  .conatct-page>h1:hover {
+    color:rgb(161, 28, 227)
+  }
+  
+  .contact-form>form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    gap: 0.5rem;
+    position: relative;
+    
+  }
+  
+  form>input {
+    padding: 2%;
+    width: 40vw;
+    border-radius: 5px;
+    border: 2px solid #360ce0;
+    background-color:rgb(249, 246, 255);
+    color: #000;
+    font-size: medium;
+  }
+  
+  textarea {
+    width: 40vw;
+    padding: 2%;
+    height: 10vh;
+    border-radius: 5px;
+    border: 2px solid #360ce0;
+    background-color:rgb(249, 246, 255);
+    color: #000;
+    font-size: medium;
+  }
+  
+  .submit-btn {
+    width: 10vw;
+    padding: 15 10 0 0;
+    text-align: center;    
+    background-color: #360ce0;
+    color: #fff;
+    font-weight: bolder;
+    cursor: pointer;
+  }
+  
+  .submit-btn:hover {
+    background-color:rgb(161, 28, 227);
+    border: none;
+    color: #fff;
+    
+  }
+  
+  label {
+    text-align: left;
+    font-size: medium;
+    color: #fff;
+  }
+  .contact_options {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    align-items: center;
+    margin-top: 1rem;
+}
+.contact_option {
+  background-color: rgb(249, 246, 255);
+  padding: .8rem;
+  border-radius: 1.2rem;
+  text-align: center;
+  border: 1px solid transparent;
+  transition: 1s;
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  color: rgb(93, 88, 88);
+  border-color: #360ce0;
+  margin-bottom: .2rem;
+ 
+}
+
+.contact_option:hover {
+  background: #360ce0;
+  color: #fff;
+
+}
+.contact_icon {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.email_icon {
+  width: 282px;
+  height: 25px;
+  margin-bottom: .6rem;
+}
+
+
+.contact_option a {
+  margin-top: 0.7rem;
+  display: inline-block;
+  font-size: 0.8rem;
+  color: #3586FF; 
+  font-weight: 600; 
+}
+.contact_option a:hover{
+  color:#fff
+} 
+  
+  .footer-contact {
+    color:#360ce0;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 55px;
+     
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 475px) {
+    .contact-page>h1 {
+      font-size: 36px;
+    }
+  
+    .submit-btn {
+      width: 30vw;
+    }
+  
+    form>input,
+    textarea {
+      width: 70vw;
+    }
+  }
